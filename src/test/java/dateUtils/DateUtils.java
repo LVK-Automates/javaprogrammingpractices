@@ -2,6 +2,7 @@ package dateUtils;
 
 import java.time.DateTimeException;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 
@@ -217,10 +218,40 @@ public class DateUtils {
 		return futureDatePattern;
 	}
 
+	/**
+	 * @param pattern
+	 * @param months
+	 * @return
+	 */
+	public static String setDateTimeMonthsAMPMFormat(String pattern, long months) {
+
+		String dateTime = null;
+
+		try {
+
+			LocalDateTime localDateTimeObj = LocalDateTime.now();
+
+			localDateTimeObj = localDateTimeObj.plusMonths(months);
+
+			DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern(pattern);
+
+			dateTime = dateTimeFormatter.format(localDateTimeObj);
+
+
+		} catch (Exception e) {
+
+			// TODO Auto-generated catch block
+
+			e.printStackTrace();
+
+		}
+
+		return dateTime;
+	}
 
 
 
-	
+
 	public static void main(String as[]) {
 		
 		//gives the date that is 1 year ahead from current date
@@ -245,6 +276,9 @@ public class DateUtils {
 		System.out.println(getCurrentDate());
 		
 		System.out.println("Prints the current date in the given format: "+getCurrentDate("MM-dd-yyyy"));
+
+		String dateTimeWithAMPM = setDateTimeMonthsAMPMFormat("yyyy-MM-dd hh:mm a", 1).toString();
+		System.out.println("Date and Time with AM/PM Format: "+dateTimeWithAMPM);
 		
 		
 	}
