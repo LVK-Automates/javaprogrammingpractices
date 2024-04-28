@@ -219,6 +219,8 @@ public class DateUtils {
 	}
 
 	/**
+	 * Description: adds a month to the current date and gets a date time with am/pm format using
+	 * LocalDateTime class
 	 * @param pattern
 	 * @param months
 	 * @return
