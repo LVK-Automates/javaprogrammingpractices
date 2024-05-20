@@ -9,11 +9,14 @@ public class StripExamples {
 		System.out.println(str1.trim());
 		
 		//strip removes spaces from both leading and trailing ends
+/*
 		String strippedValue = str1.strip();
 		System.out.println("Length of the string after the strip():"+strippedValue.length());
 		System.out.println("Value after Stripping: "+strippedValue);
+*/
 
 		//stripLeading removes spaces from both leading end
+/*
 		String  str2 = " Java ";
 		String stripLeadingValue = str2.stripLeading();
 		System.out.println("Length of the string after the stripLeading():"+stripLeadingValue.length());
@@ -25,7 +28,8 @@ public class StripExamples {
 		String stripTrailingValue = str3.stripTrailing();
 		System.out.println("Length of the string after the stripLeading():"+stripTrailingValue.length());
 		System.out.println("Value after trailing spaces removed:"+stripTrailingValue);
-		
+*/
+
 	}
 
 }

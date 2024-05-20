@@ -59,10 +59,10 @@ public class StringMethodsExamples {
 			System.out.println("Not Equals for StringBuffer");
 		
 		
-		System.out.println("Comparing two stringbuilder objects using compareTo method: "+sBuilder1.compareTo(sBuilder2));
+		//System.out.println("Comparing two string builder objects using compareTo method: "+sBuilder1.compareTo(sBuilder2));
 		
 		
-		System.out.println("Comparing two stringbuilder objects using compareTo method: "+sbuffer1.compareTo(sbuffer2));
+		//System.out.println("Comparing two stringbuilder objects using compareTo method: "+sbuffer1.compareTo(sbuffer2));
 		
 		//Comparing String and StringBuffer using contentEquals method
 		if(str1.contentEquals(sbuffer1))
