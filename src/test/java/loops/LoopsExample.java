@@ -5,6 +5,7 @@ public class LoopsExample {
 	public static void main(String[] args) {
 
 		
+		//loops
 		
 		for(int i = 0; i<=10 ; i++) {
 			
