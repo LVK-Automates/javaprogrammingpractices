@@ -18,6 +18,7 @@ public class MapUsingForEach {
 		hmObj.put(5, null);
 		hmObj.put(6, "Rohit");
 		
+		//forEach example
 		hmObj.forEach((key, value) -> System.out.println(key + "=" + value));
 		
 
