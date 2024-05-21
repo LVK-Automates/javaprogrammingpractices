@@ -44,7 +44,7 @@ public class LoopsExample {
 
 		int i = 0;
 		
-		while(i < 0) {
+		while(i <= 10) {
 			
 			System.out.println(i);
 			i++;
