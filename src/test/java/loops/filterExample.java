@@ -24,7 +24,6 @@ public class filterExample {
              */
             listObj.stream().filter( val -> val >= 4).forEach(System.out::print);
 
-
         }
     }
 }
