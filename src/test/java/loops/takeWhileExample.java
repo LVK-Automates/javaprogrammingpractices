@@ -6,7 +6,7 @@ public class takeWhileExample {
 
     public static void main(String[] args) {
 
-        List<Integer> listObj = new ArrayList<Integer>();
+        List<Integer> listObj = new ArrayList<>();
         listObj.add(4);
         listObj.add(4);
         listObj.add(6);
