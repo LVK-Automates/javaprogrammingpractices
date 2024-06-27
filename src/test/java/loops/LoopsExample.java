@@ -61,7 +61,7 @@ public class LoopsExample {
 			System.out.println(j);
 			j++;
 		}
-		while(j<0);
+		while(j<=10);
 		
 		
 		

@@ -41,6 +41,7 @@ public class takeWhileExample {
          * hence the iteration will be stopped
          * output: 446256
          */
+
         listObj.stream().takeWhile( val -> val <= 6).forEach(System.out::print);
 
 
