@@ -16,6 +16,7 @@ public class filterExample {
             listObj.add(5);
             listObj.add(6);
             listObj.add(7);
+
             /**
              * below line of code will iterate through all the stream of elements and prints
              * the values that are >=4
