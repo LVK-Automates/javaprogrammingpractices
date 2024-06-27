@@ -14,6 +14,7 @@ public class takeWhileExample {
         listObj.add(5);
         listObj.add(6);
         listObj.add(7);
+
         /**
          * In the below code, iteration will be stopped at the
          * first element itself as the condition is becoming false
