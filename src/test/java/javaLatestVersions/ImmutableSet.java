@@ -13,7 +13,6 @@ public class ImmutableSet {
         // System.out.println(listObj.add("Jaiswal"));
         // System.out.println(listObj.remove(2));
         System.out.println(setObj);
-
         /***
          * Below is a supported operation
          */
