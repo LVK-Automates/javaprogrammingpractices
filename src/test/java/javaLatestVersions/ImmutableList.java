@@ -7,7 +7,6 @@ public class ImmutableList {
     public static void main(String[] args) {
 
         List<String> listObj = List.of("Kohli","Rohit","Ashwin","Dhoni","LVK","test5","test6","test7","test8","test9","test10","test11");
-
         /*
            Below codes will throw UnsupportedOperationException
          */
