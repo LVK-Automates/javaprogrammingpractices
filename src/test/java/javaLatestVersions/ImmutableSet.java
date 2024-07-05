@@ -6,11 +6,7 @@ import java.util.stream.Collectors;
 public class ImmutableSet {
 
     public static void main(String[] args) {
-
-
         Set<String> setObj = Set.of("Kohli","Ashwin","Dhoni","Natrajan");
-
-
         /**
          * Below operations are unsupported
          */
@@ -22,7 +18,6 @@ public class ImmutableSet {
         /***
          * Below is a supported operation
          */
-
         System.out.println(setObj.stream().filter(str -> str.contains("A")).collect(Collectors.toSet()));
 
     }

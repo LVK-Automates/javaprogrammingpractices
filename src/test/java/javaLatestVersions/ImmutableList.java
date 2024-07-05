@@ -21,6 +21,5 @@ public class ImmutableList {
         listObj.stream().forEach(System.out::println);
 
 
-
     }
 }

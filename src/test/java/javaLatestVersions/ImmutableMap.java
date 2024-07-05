@@ -12,8 +12,6 @@ public class ImmutableMap {
                 + k + ", Value = " + v));
         //Below code throws a null pointer exception
         //Map<Integer, String> mapObj = Map.of(1,null,2,"Kirthi", 3,"Vasan");
-
-
        // System.out.println(mapObj);
 
         /*
